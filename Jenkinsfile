@@ -1,7 +1,10 @@
 pipeline {
-  stage('wololo') {
-  steps {
-    sh 'testing.sh'
-  }
-}
+    agent any
+    stages {
+      stage ('wololo') {
+        steps {
+            sh 
+        }   
+      }
+    }
 }
