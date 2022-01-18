@@ -3,7 +3,7 @@ pipeline {
     stages {
       stage ('wololo') {
         steps {
-            sh "sh wololo.sh"
+            sh 'wololo.sh'
         }   
       }
     }
