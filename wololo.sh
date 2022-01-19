@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "wololo a topeeee caralho!!!!!!"
+echo "wololooooo a topeeee caralho!!!!!!"
+
