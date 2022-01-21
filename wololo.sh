@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "wololooooo trying"
+echo "wololooooo tryingasd asda dasdasd as"
 
