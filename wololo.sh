@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "wololooooo"
+echo "wololooooo tusiiiiiiiiiibroooo"
 
