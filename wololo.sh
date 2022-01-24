@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "wololooooo tusiiiiiiiiiibroooo 2.0"
-
+echo "lets check!"
