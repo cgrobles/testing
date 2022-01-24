@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "lets check!"
+echo "lets check!asdasd asdasdadasd"
