@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "wololooooo tusiiiiiiiiiibroooo"
+echo "wololooooo tusiiiiiiiiiibroooo 2.0"
 
