@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "lets check! PLEASSSSSEEEEEEE"
+echo "checking cluster webhookkkkkkkk"
