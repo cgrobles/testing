@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "testing for Nacho! :D 3.0"
+echo "testing for Nacho! :D 4.0"
