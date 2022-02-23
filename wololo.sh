@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hasta el nepe"
+echo "funciona pls"
