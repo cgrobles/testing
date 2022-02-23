@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "yekale"
+echo "testing building tags"
