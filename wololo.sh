@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "new branch"
+echo "new branch 2.0 yekale edition"
