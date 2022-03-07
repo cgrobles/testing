@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "github PR builder"
+echo "github PR builder 2.0"
