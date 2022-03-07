@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "forcing errors"
+echo "LEGOOOOO"
