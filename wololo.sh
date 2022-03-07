@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "testing building tags 2.0"
+echo "github PR builder"
