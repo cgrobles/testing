@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "LEGOOOOO"
+echo "testing PR build"
