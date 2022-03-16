@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "lets go againnnn 2.0"
+echo "lets go againnnn 3.0"
