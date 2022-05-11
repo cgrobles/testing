@@ -1,5 +1,3 @@
-import nectar.plugins.rbac.groups.*;
-
 Map<String, GroupContainer> containers = new TreeMap<>();
 // Add the root container
 containers.put(Jenkins.instance.displayName, GroupContainerLocator.locate(Jenkins.instance));
