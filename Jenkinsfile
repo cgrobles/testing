@@ -1,13 +1,10 @@
-pipeline {
-    agent any
-    stages {
-      stage ('wololo') {
-        steps {
-            script {
-                '''
-                import nectar.plugins.rbac.groups.*;
+import nectar.plugins.rbac.groups.*;
 
-Map<String, GroupContainer> containers = new TreeMap<>();
+node {
+    stage('Build') {
+        // Run the maven build
+            if (isUnix()) {
+                Map<String, GroupContainer> containers = new TreeMap<>();
 // Add the root container
 containers.put(Jenkins.instance.displayName, GroupContainerLocator.locate(Jenkins.instance));
 // Add all the items that are be containers
@@ -48,9 +45,9 @@ for (c in containers) {
     }
   }
 }
-                '''
+            } else {
+                bat(/"%MVN_HOME%\bin\mvn" -Dmaven.test.failure.ignore clean package/)
             }
-        }   
-      }
+        
     }
 }
