@@ -3,7 +3,7 @@ pipeline {
     stages {
       stage ('wololo') {
         steps {
-            echo "$env.JOB_NAME"
+            sh "echo '${JOB_NAME}' | cut -d'/' -f 2"
             sh "sh wololo.sh"
         }   
       }
