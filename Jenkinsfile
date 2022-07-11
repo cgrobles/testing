@@ -1,11 +1,22 @@
 pipeline {
+
+    parameters {
+     string(defaultValue: '_notdef_', name: 'test', trim: true)
+    }
+    
     agent any
+
     stages {
-      stage ('wololo') {
-        steps {
-            sh "sh wololo.sh"
-            sh 'printenv'
-        }   
-      }
+        stage('Hello') {
+            steps {
+                println("${params.test}")
+            }
+        } 
+    } 
+
+    post {
+        always {
+            println('Goodbye, cruel world!!')
+        }
     }
 }
