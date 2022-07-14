@@ -1,7 +1,7 @@
 pipeline {
 
     parameters {
-     string(defaultValue: '_notdef_', name: 'test', trim: true)
+     string(defaultValue: 'letsgo', name: 'test', trim: true)
     }
     
     agent any
@@ -10,7 +10,6 @@ pipeline {
         stage('Hello') {
             steps {
                 println("${params.test}")
-                echo "test"
             }
         } 
     } 
