@@ -10,7 +10,7 @@ pipeline {
         stage('Hello') {
             steps {
                 println("${params.test}")
-                echo "tusmuertos"
+                echo "test"
             }
         } 
     } 
