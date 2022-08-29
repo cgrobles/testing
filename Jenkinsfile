@@ -1,10 +1,11 @@
 pipeline {
-    
     agent any
 
-    post {
-        always {
-            println('Goodbye, cruel world!!')
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
         }
     }
 }
