@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World over 9000'
-                echo getBuildCauses
+                echo "${currentBuild.buildCauses}"
                 script  {
                     if (env.BRANCH_NAME == 'main') {
                         echo 'works!'
