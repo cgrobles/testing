@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo $repo
-                echo "--------------- token!"
+                echo "--------------- token !"
                 echo "${currentBuild.buildCauses}"
                 script  {
                     if (currentBuild.getBuildCauses('com.cloudbees.jenkins.GitHubPushCause') && env.BRANCH_NAME == 'main') {
