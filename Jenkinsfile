@@ -4,6 +4,8 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
+                echo $repo
+                echo $x_github_event
                 echo "${currentBuild.buildCauses}"
                 script  {
                     if (currentBuild.getBuildCauses('com.cloudbees.jenkins.GitHubPushCause') && env.BRANCH_NAME == 'main') {
