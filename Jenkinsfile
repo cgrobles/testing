@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World over 9000'
-                echo $BRANCH_NAME
+                echo env.BRANCH_NAME
             }
         }
     }
