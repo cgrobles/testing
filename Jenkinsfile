@@ -4,7 +4,6 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo $repo
                 echo $x_github_event
                 echo "--------------- token!"
                 echo "${currentBuild.buildCauses}"
