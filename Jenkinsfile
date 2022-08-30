@@ -5,7 +5,9 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World over 9000'
-                echo env.BRANCH_NAME
+                if (env.BRANCH_NAME == 'main') {
+                    echo 'works!'
+                }
             }
         }
     }
