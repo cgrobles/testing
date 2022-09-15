@@ -4,7 +4,6 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo $repo
                 echo "--------------- token !"
                 echo "${currentBuild.buildCauses}"
                 script  {
