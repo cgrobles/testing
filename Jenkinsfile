@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script  {
                     if (currentBuild.getBuildCauses('com.cloudbees.jenkins.GitHubPushCause') && env.BRANCH_NAME == 'main') {
-                        echo "this is from webhook and main, so this will be deployed"
+                        echo "this is from webhook and main"
                     } else if (currentBuild.getBuildCauses('com.cloudbees.jenkins.GitHubPushCause') && env.BRANCH_NAME != 'main') {
                         echo "skipping this build!"
                     } else {
