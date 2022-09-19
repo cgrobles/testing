@@ -8,7 +8,7 @@ pipeline {
                     if (currentBuild.getBuildCauses('com.cloudbees.jenkins.GitHubPushCause') && env.BRANCH_NAME == 'main') {
                         echo "t"
                     } else if (currentBuild.getBuildCauses('com.cloudbees.jenkins.GitHubPushCause') && env.BRANCH_NAME != 'main') {
-                        echo "skipping thbuild!"
+                        echo "!"
                     } else {
                         echo "this is a manual execution"
                     }
