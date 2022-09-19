@@ -10,7 +10,7 @@ pipeline {
                     } else if (currentBuild.getBuildCauses('com.cloudbees.jenkins.GitHubPushCause') && env.BRANCH_NAME != 'main') {
                         echo "!"
                     } else {
-                        echo "this is a manual execution"
+                        echo "this is a m"
                     }
                 }
             }
