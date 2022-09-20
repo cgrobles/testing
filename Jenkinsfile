@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script  {
                     if (currentBuild.getBuildCauses('com.cloudbees.jenkins.GitHubPushCause') && env.BRANCH_NAME == 'main') {
-                        echo "t"
+                        echo "tasd"
                     } else if (currentBuild.getBuildCauses('com.cloudbees.jenkins.GitHubPushCause') && env.BRANCH_NAME != 'main') {
                         echo "!"
                     } else {
